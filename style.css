@@ -35,7 +35,7 @@ h2 {
   width: 371px;
   border-radius: 12px;
   box-sizing: border-box;
-  transition: box-shadow ease-in-out 200ms;
+  transition: ease-in-out 300ms;
 }
 
 .sneaker:hover {
@@ -375,12 +375,12 @@ a {
     gap: 24px;
   }
 
-  .footer{
+  .footer {
     width: 100%;
     height: 195px;
   }
 
-  .footer_container{
+  .footer_container {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
@@ -391,8 +391,8 @@ a {
     gap: 24px;
   }
 
-  .last__footer__container{
-    width: 100% ;
+  .last__footer__container {
+    width: 100%;
     padding: 24 0 24 0;
   }
 
@@ -438,7 +438,7 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin:0 0 12 0 ;
+    margin: 0 0 12 0;
   }
 
   .container__text {
@@ -450,6 +450,7 @@ a {
     line-height: normal;
     margin: 0;
   }
+
   .header__container {
     display: flex;
     max-width: 1200px;
@@ -569,8 +570,9 @@ a {
     width: auto;
     padding: 5.5px 0;
   }
-  .last___text{
+
+  .last___text {
     margin: 0;
     padding: 0;
   }
-} 
+}
